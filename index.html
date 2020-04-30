@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>StoryDog</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container-fluid">
+        <!--Header-->
+        <div class="header row">
+            <div class="header-title col-6 col-xl-7">StoryDog</div>
+            <div class="all-header-links col-6 col-xl-5 row">
+                <a class="header-link col-4" href="#sign-up">Sign Up</a>
+                <a class="header-link col-4" href="#faq">FAQ</a>
+                <a class="header-link col-4" href="https://app.storydog.com">Log In</a>
+            </div>
+        </div>
+        <!--Header-->
+        <!--Content-->
+        <div class="content row">
+            <div class="content-left col-12 col-lg-6">
+                <div class="content-title">Give voice to your memories.</div>
+                <div class="content-text">
+                    StoryDog is a personal service for recording and
+                    preserving stories shared with family and
+                    friends. Sign up to call your private number and
+                    capture your story. StoryDog records, renders
+                    and archives your voice into text to keep it with
+                    your recordings and pictures forever. Get started
+                    in 3 easy steps…
+                </div>
+                <div class="content-circles">
+                    <div class="content-circle"><div class="content-number">1</div><div class="content-circle-text">call</div></div>
+                    <div class="content-circle"><div class="content-number">2</div><div class="content-circle-text">capture</div></div>
+                    <div class="content-circle"><div class="content-number">3</div><div class="content-circle-text">keep</div></div>
+                </div>
+            </div>
+            <div class="img col-12 col-lg-6">
+                <img class="content-img" src="assets/image1.jpg" alt="img">
+            </div>
+        </div>
+        <!--Content-->
+        <!--Choose an option-->
+        <div class="choose-an-option-content" id="sign-up">
+            <div class="choose-an-option row">
+                <div class="get-started-option col-12 col-lg-6">
+                    <div class="get-started-option-text">
+                        <p>Preserve your story and see
+                            your history emerge.</p>
+                        <a class="option-button" href="#get-started" onclick="showStart()">Get started</a>
+                    </div>
+                </div>
+                <div class="give-a-gift-option col-12 col-lg-6">
+                    <div class="give-a-gift-option-text">
+                        <p>Share your stories with
+                            friends and family.</p>
+                        <a class="option-button" href="#give-a-gift" onclick="showGift()">Give a gift</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Choose an option-->
+        <!--Get started-->
+        <div class="get-started-content row" id="get-started" style="display: flex">
+            <!--<div class="corner"><span>Get started option</span></div>-->
+            <div class="get-started-text col-6">
+                Keep 10,000 stories.<br>
+                Add pictures.<br>
+                Share with friends.<br>
+                Create an heirloom.<br>
+            </div>
+
+            <div class="get-started-form col-6">
+                <div class="form-title">Set Up Your StoryDog Account</div>
+                <form action="https://smartforms.dev/submit/5eaacc098a02626591cb5ab4" method="POST">
+                    <label class="form-label" for="name">Name</label><br>
+                    <input class="col-6 col-lg-4" type="text" required id="name" name="name"><br>
+                    <label class="form-label" for="email">Email</label><br>
+                    <input class="col-6 col-lg-4" type="email" required id="email" name="email"><br>
+                    <label class="form-label" for="phone">Mobile Phone</label><br>
+                    <input class="col-6 col-lg-4" type="text" required id="phone" name="phone"><br>
+                    <div class="terms-and-policy">By clicking Sign Up, you agree to our Terms & Data Policy</div>
+                    <button class="form-button" type="submit">Continue</button>
+                </form>
+            </div>
+        </div>
+        <!--Get started-->
+        <!--Give a gift-->
+        <div class="get-started-content row" id="give-a-gift" style="display: none">
+            <!--<div class="corner"><span>Give a gift option</span></div>-->
+            <div class="get-started-text col-6">
+                Keep 10,000 stories.<br>
+                Add pictures.<br>
+                Share with friends.<br>
+                Create an heirloom.<br>
+            </div>
+
+            <div class="get-started-form col-6">
+                <div class="form-title">Set Up Your StoryDog Account</div>
+                <form action="https://smartforms.dev/submit/5eaacc368a02626591cb5ab5" method="POST">
+                    <label class="form-label" for="your-name">Your Name</label><br>
+                    <input class="col-6 col-lg-4" type="text" required id="your-name" name="your-name"><br>
+                    <label class="form-label" for="your-email">Your Email</label><br>
+                    <input class="col-6 col-lg-4" type="email" required id="your-email" name="your-email"><br>
+                    <label class="form-label" for="your-phone">Your Mobile Phone</label><br>
+                    <input class="col-6 col-lg-4" type="text" required id="your-phone" name="your-phone"><br>
+                    <label class="form-label" for="recipient-name">Gift Recipient Name</label><br>
+                    <input class="col-6 col-lg-4" type="text" required id="recipient-name" name="recipient-name"><br>
+                    <label class="form-label" for="recipient-email">Gift Recipient Email</label><br>
+                    <input class="col-6 col-lg-4" type="email" required id="recipient-email" name="recipient-email"><br>
+                    <label class="form-label" for="recipient-phone">Gift Recipient Mobile Phone</label><br>
+                    <input class="col-6 col-lg-4" type="text" required id="recipient-phone" name="recipient-phone"><br>
+                    <div class="terms-and-policy">By clicking Sign Up, you agree to our Terms & Data Policy</div>
+                    <button class="form-button" type="submit">Continue</button>
+                </form>
+            </div>
+        </div>
+        <!--Give a gift-->
+        <!--FAQ-->
+        <div class="faq-content row" id="faq">
+            <div class="img-container col-12 col-lg-6">
+                <div class="container-title">Frequently asked questions</div>
+                <div>
+                    <img class="container-img" src="assets/image2.jpg" alt="img2">
+                </div>
+            </div>
+
+            <div class="frequently-questions col-12 col-lg-6">
+                <div>
+                    <div class="question">-Is there a cost to use StoryDog?</div>
+                    <div class="answer">Yes, the monthly service fee is $8.00 or $89.00 billed annually which includes 10,000 stories</div>
+                </div>
+                <div>
+                    <div class="question">-What is the refund policy? 100% satisfaction or 100% refund?</div>
+                    <div class="answer"> We want you to be so happy that you refer us to your friends and family.</div>
+                </div>
+                <div>
+                    <div class="question">- Are my stories kept private?</div>
+                    <div class="answer">Yes, you control with whom you share your stories.</div>
+                </div>
+                <div>
+                    <div class="question">- How do I record a story?</div>
+                    <div class="answer">Call your private StoryDog phone number and begin talking ... it's super easy.</div>
+                </div>
+                <div>
+                    <div class="question">- How much time do I have to record a story? </div>
+                    <div class="answer">Each story can be up 60 minutes, you may record 10,000 stories. Need more? Call us.</div>
+                </div>
+                <div>
+                    <div class="question">- How does the phone call become text?</div>
+                    <div class="answer">? StoryDog uses specialized computer software to translate the phone call to text.</div>
+                </div>
+                <div>
+                    <div class="question">-May I organize my stories into groups or topics? </div>
+                    <div class="answer">Yes, after a story is translated,StoryDog allow you to tag a story with keywords.</div>
+                </div>
+                <div>
+                    <div class="question">- May I attach photographs to a story? </div>
+                    <div class="answer">Yes, you may add visual context by uploading photographs to each story</div>
+                </div>
+                <div>
+                    <div class="question">- Is there a mobile app? </div>
+                    <div class="answer">We're planning to build an app. For now, go here:&nbsp <a href="https://app.storydog.com">https://app.storydog.com</a> &nbsp to view your stories.</div>
+                </div>
+                <div>
+                    <div class="question">- May I cancel my account? </div>
+                    <div class="answer">Yes, we'll be sad to see you leave and we will send you a copy of your stories.</div>
+                </div>
+                <div>
+                    <div class="question">- I'm interested or have questions; can I talk to you?</div>
+                    <div class="answer">Yes, please call us: 484-402-4901 or email: callstorydog@gmail.com.</div>
+                </div>
+            </div>
+        </div>
+        <!--FAQ-->
+        <!--Footer-->
+        <div class="footer row">
+            <div class="footer-content col-12">
+                <div class="company-name col-3">StoryDog &copy 2020.</div>
+                <div class="footer-info col-6">
+                    <a href="https://www.facebook.com/callstorydog" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
+                    <a href="https://www.instagram.com/callstorydog" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+                    <a href="https://twitter.com/callstorydog" target="_blank"><i class="fab fa-twitter-square fa-2x"></i></a>
+                    <a href="https://www.linkedin.com/company/callstorydog" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+
+                    <div class="mail">callstorydog@gmail.com</div>
+                    <div class="number">484-402-4901</div>
+                </div>
+            </div>
+        </div>
+        <!--Footer-->
+    </div>
+    <script>
+        function showStart() {
+            let start = document.getElementById("get-started");
+            let gift = document.getElementById("give-a-gift");
+            start.style.display = "flex";
+            gift.style.display = "none";
+        }
+
+        function showGift() {
+            let start = document.getElementById("get-started");
+            let gift = document.getElementById("give-a-gift");
+            start.style.display = "none";
+            gift.style.display = "flex";
+        }
+    </script>
+</body>
+</html>

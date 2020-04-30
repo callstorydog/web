@@ -1,0 +1,351 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: unset;
+}
+
+.header {
+    height: 60px;
+    text-align: left;
+    font-size: 40px;
+    border-bottom: 2px solid #0388fc;
+    font-family: sans-serif;
+    margin: 30px !important;
+}
+.header-title {
+    display: inline-block;
+}
+
+.all-header-links {
+    height: 100%;
+    float: right;
+    font-size: 20px;
+    overflow: hidden;
+    display: inline-block;
+
+}
+.header-link {
+    text-decoration: none;
+    padding: 1px;
+    text-align: right;
+    color: black;
+    font-weight:400;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.header-link:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.img {
+    float: right;
+    display: inline-block;
+    padding-right: 0 !important;
+    padding-left: unset !important;
+}
+.content {
+    margin-left: 30px !important;
+    margin-right: 30px !important;
+}
+
+.content-left {
+    height: 100%;
+}
+
+.content-text {
+    font-size: 25px;
+    font-family: sans-serif;
+    margin-top: 20px;
+    text-align: justify;
+}
+.content-title {
+    font-size: 40px;
+}
+.content-img {
+    width: 100%;
+}
+
+.content-circle {
+    height: 100px;
+    width: 100px;
+    display: inline-grid;
+    background-color: #184385;
+    border-radius: 50%;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin: 7%;
+    text-align: center;
+    line-height: 35px;
+    color: white;
+}
+.content-number {
+    font-size: 35px;
+    margin-top: 10px;
+}
+.content-circle-text {
+    margin-bottom: 20px;
+}
+.content-circles {
+    text-align: center;
+}
+
+.choose-an-option-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 30px !important;
+    margin-right: 30px !important;
+}
+.give-a-gift-option,
+.get-started-option {
+    display: inline-flex;
+    height: 50%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.give-a-gift-option-text,
+.get-started-option-text {
+    display: flex;
+    width: 600px;
+    height: 400px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.give-a-gift-option-text p {
+    font-size: 30px;
+}
+
+.get-started-option-text p {
+    font-size: 30px;
+}
+
+.option-button {
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    background-color: #4c4b80;
+    border-radius: 5px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-self: center;
+}
+
+.choose-an-option {
+    height: 45vh;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    background-color: #dce5e6;
+}
+
+.option-button:hover {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.get-started-content {
+    background-color: #0f98ba;
+    height: 550px;
+    margin-left: 30px !important;
+    margin-right: 30px !important;
+}
+
+.corner {
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-top: 200px solid #ffff00;
+    border-bottom: 40px solid transparent;
+    border-right: 200px solid transparent
+}
+
+.corner span {
+    position: absolute;
+    bottom: 110px;
+    width: 100px;
+    left: 5px;
+    text-align: center;
+    font-size: 18px;
+    transform: rotate(-45deg);
+    display: block;
+}
+
+.get-started-text {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    font-size: 30px;
+}
+
+.get-started-form {
+    margin: auto;
+}
+
+.form-title {
+    font-size: 30px;
+    font-weight: 400;
+    margin-left: -50%;
+}
+
+.form-label {
+    padding-left: 5px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.terms-and-policy {
+    padding: 20px 0 20px 5px;
+    font-size: 13px;
+}
+
+.form-button {
+    width: 180px;
+    background: #0b114d;
+    border: unset;
+    color: white;
+}
+
+.img-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer-content {
+    font-size: 18px;
+}
+.container-img {
+    display: block;
+    margin:auto;
+    width: 90%;
+}
+.container-title {
+    font-size: 45px;
+    font-family: sans-serif;
+    color: #ffffff;
+    text-align: center;
+}
+.frequently-questions {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.faq-content {
+    margin-left: 30px !important;
+    margin-right: 30px !important;
+    background: #264a80;
+}
+.question {
+    color: white;
+    display: inline-flex;
+    font-family: sans-serif;
+    text-align: center;
+}
+.answer {
+    color:#03b6fc;
+    display: inline-flex;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.footer {
+    background-color: #c4c3c0;
+    height: 10%;
+    margin: 0 30px 0 30px !important;
+    bottom: 0;
+}
+
+.footer-img {
+    width: 10px;
+    height: 10px;
+}
+.company-name {
+    display: inline-block; vertical-align: top; padding: 15px;
+}
+.footer-info:hover {
+    color: black;
+}
+i {
+    color: black;
+}
+.footer-info {
+    display: inline-block;
+    margin-left: 60px;
+    padding: 15px;
+}
+
+@media screen and (min-width: 1024px) {
+    .faq-content,
+    .get-started-content,
+    .choose-an-option-content,
+    .content {
+        height: 100vh;
+    }
+
+    .choose-an-option {
+        height: 50vh;
+    }
+
+    .get-started-option {
+        height: 100%;
+        align-items: flex-end;
+        padding-right: 50px !important;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .give-a-gift-option {
+        height: 100%;
+        align-items: end;
+        padding-left: 50px !important;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .form-title {
+        margin-left: unset;
+    }
+
+    .give-a-gift-option-text,
+    .get-started-option-text {
+        width: 300px;
+        height: 250px;
+    }
+
+    .give-a-gift-option-text p {
+        font-size: 23px;
+    }
+
+    .get-started-option-text p {
+        font-size: 23px;
+    }
+
+    .container-title {
+        margin-bottom: 10vh;
+    }
+
+    .frequently-questions {
+        padding-top: 0;
+        font-size: 13px;
+    }
+}
+
+@media screen and (min-width: 1292px) {
+    .frequently-questions {
+        font-size: 18px;
+    }
+}
